@@ -7,5 +7,5 @@ const fuzzyMatch = (drivers, firstLetters) => {
 }
 
 const fuzzyMatch = (drivers, firstLetters) => {
-  return drivers.filter(name => name.toLowerCase().includes(substring(firstLetters.toLowerCase())))
+  return drivers.filter(name => name.toLowerCase().includes(firstLetters.toLowerCase()))
 }

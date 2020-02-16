@@ -1,3 +1,3 @@
 const findMatching = (drivers, name) => {
-  return drivers.filter(name => name.toLowerCase() === driverName.toLowerCase())
+  return drivers.filter(name => name.toLowerCase() === name.toLowerCase())
 }

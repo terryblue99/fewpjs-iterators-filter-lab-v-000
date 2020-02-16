@@ -1,3 +1,4 @@
-const findMatching = (driverName) => {
-  return drivers.filter(name => name === driverName)
+const findMatching = (drivers, name) => {
+  return drivers.filter(name => name.toLowerCase() === driverName.toLowerCase())
 }
+
